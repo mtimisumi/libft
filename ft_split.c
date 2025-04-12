@@ -6,7 +6,7 @@
 /*   By: mmisumi <mmisumi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/19 16:54:47 by mmisumi           #+#    #+#             */
-/*   Updated: 2025/01/29 17:20:23 by mmisumi          ###   ########.fr       */
+/*   Updated: 2025/04/12 12:58:09 by mmisumi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,8 +88,9 @@ int	main(void)
 {
 	char	*str;
 	char	**result;
-	int		i = 0;
+	int		i;
 
+	i = 0;
 	str = "hallo:hoe:gaat:het:met:jou?:";
 	result = ft_split(str, ':');
 	while (result[i])
